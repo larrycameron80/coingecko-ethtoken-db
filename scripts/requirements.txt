@@ -2,3 +2,5 @@ eth-hash[pycryptodome]==0.2.0
 eth-utils==1.4.1
 PyYAML==3.12
 requests==2.21.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
